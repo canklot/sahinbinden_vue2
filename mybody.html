@@ -8,6 +8,7 @@
   <link href="myhomepage.css" rel="stylesheet" >
   <link href="header.css" rel="stylesheet" >
   <link rel="stylesheet" href="mybody.css">
+  <script src="vue.js"></script>
   <title>Page Title</title>
 
 </head>
@@ -121,6 +122,14 @@
 				<li><a href="">Kiralık Araçlar</a> (8.872)</li>
 				<li><a href="">Deniz Araçları</a> (4.434)</li>
 				<li><a href="">Hasarlı Araçlar</a> (4.381)</li>
+        <div id="demo">
+  <button v-on:click="show = !show">
+    Toggle
+  </button>
+  <transition name="fade">
+    <p v-if="show">hello</p>
+  </transition>
+</div>
 				<li><a href="">Klasik Araçlar</a> (1.694)</li>
 				<li><a href="">Elektrikli Araçlar</a> (1.335)</li>
 				<li><a href="">Modifiye Araçlar</a> (115)</li>
@@ -789,5 +798,5 @@
         Copyright © 2000-2019 sahibinden.com</p>
 		</footer>
 
-
+<script src="index.js"></script>
 </html>
