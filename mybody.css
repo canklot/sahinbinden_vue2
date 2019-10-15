@@ -1,20 +1,20 @@
 .center {
   margin: auto;
-  width: 60%;
+  width: 65%;
   border: 3px solid green;
-  
+
 }
 .right {
   float: right;
-  width: 73%;
+  width: 75%;
   border: 3px solid #73AD21;
-  
+
 }
 .left {
   float: left;
-  width: 25%;
+  width: 23%;
   border: 3px solid #73AD21;
-  
+
 }
 .clearfix {
   overflow: auto;
@@ -167,10 +167,7 @@ li.dask:before{
     vertical-align: middle;
 	margin: 5px;
 }
-    
+
 ul.soldabosluk{
 	margin-left: 35px;
 }
-    
-
-    
