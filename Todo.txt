@@ -1,1 +1,1 @@
-Soldaki liste dolduralacak
+soldaki listedeki eksik resimler eklenicek boş elementlerin yerleri düzenllenecek
