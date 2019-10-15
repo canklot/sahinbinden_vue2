@@ -21,6 +21,7 @@
 }
 
 kutu {
+	padding:10px;
 	float:left;
     text-align: justify;
     width: 100;
