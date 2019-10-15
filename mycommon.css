@@ -1,49 +1,323 @@
-h2,p,ul,li,a{margin:0;padding:0;}
-ul{list-style:none;}
-a{color:#039;text-decoration:none;outline:0;}
-a:focus{outline:0;}
-a:hover{text-decoration:underline;}
+.center {
+  margin: auto;
+  width: 65%;
 
-body{font:12px "Lucida Grande","LucidaGrande",Arial,sans-serif;
-font-size-adjust:none;
-font-stretch:normal;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-line-height:normal;
--webkit-text-size-adjust:none;
--moz-text-size-adjust:none;
--ms-text-size-adjust:none;
-text-size-adjust:none;
-background:#fff;
+
+}
+.right {
+  float: right;
+  width: 75%;
+
+
 }
 
-.pvdef{
-padding-top:15px;
-padding-bottom:15px;
-padding-left:15px;
-padding-right:15px;
+
+
+
+.one {
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: black;
+  padding:5px;
 }
 
-.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
-
-.footer-container{border-top:1px solid #dfdfdf;background:#f9f9f9;position:relative;clear:left;margin-top:28px;}
-.footer-container:before{content:'';background:#fff;display:block;height:1px;width:100%;}
-.footer-container .footer{width:984px;margin:0 auto;zoom:1;padding:28px 0;}
-.footer-container .footer .footer-menu{float:left;overflow:hidden;width:100%;}
-.footer-container .footer .footer-menu li{float:left;width:21%;margin-bottom:6px;}
-.footer-container .footer .footer-menu li.follow-us{float:right;margin-right:25px;width:130px;}
-.footer-container .footer .footer-menu li li{float:none!important;line-height:20px;width:inherit;overflow:hidden;}
-.footer-container .footer .footer-menu a{color:#888;}
-.footer-container .footer h2{font-size:14px;font-weight:bold;color:#555;}
-.footer-container .footer h2+ul{margin-top:12px;}
-.footer-container .footer .contact-menu li{float:left;padding-left:50px;margin:30px 40px 10px 0;font-weight:700;position:relative;}
-.footer-container .footer .contact-menu li p{color:#c55353;margin-top:2px;}
-.footer-container .footer .contact-menu li:before{position:absolute;left:0;top:-3px;}
 
 
-.footer-container .footer .follow-us li{float:left;}
-.footer-container .footer .warning-text{font-size:11px;color:#888;padding:12px;background:#fff;border:1px dashed #ccc;border-radius:2px;margin:8px 0;}
-.footer-container .footer .copyright,.footer-container .footer .post-classified-free-text{color:#555;font-size:11px;}
-.footer-container .footer .post-classified-free-text{margin:0;float:right;}
-.footer-container .footer .post-classified-free-text p{display:inline;}
+
+
+
+.left {
+  float: left;
+  width: 23%;
+
+
+}
+.left2 {
+  float: left;
+  width: 50%;
+
+
+}
+.right2 {
+  float: right;
+  width: 50%;
+
+
+}
+.clearfix {
+  overflow: auto;
+}
+
+kutu {
+	padding:10px;
+	float:left;
+    text-align: justify;
+    width: 100;
+}
+
+kutu img {
+    display: block;
+    margin: 0 auto;
+}
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.acil:before {
+    background-image: url(pics/simgeler.png);
+    background-position: -696px -24px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.fiyatidusen:before{
+	background-image: url(pics/simgeler.png);
+    background-position: -552px -168px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.son48:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -168px -552px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.hasarsorgulama:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -504px -216px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.otoexpertis:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -408px -312px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.aracdegerlendirme:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -48px -672px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.aracsigorta:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -360px -360px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.emlakendeksi:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -624px -96px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.dask:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -288px -432px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.emlak:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -600px -120px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+
+
+
+li.vasıta:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -96px -624px;;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.yedek:before{
+	background-image: url(pics/simgeler.png);
+	background-position: 0 -720px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.ikinciel:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -720px 0;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+li.işmakineleri:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -264px -456px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+li.ustalar:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -120px -600px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+li.özelders:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -240px -480px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+li.işilanları:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -336px -384px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+li.yardımcıara:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -24px -696px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+li.hayvanlaralemi:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -480px -240px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+li.hikayenipaylaş:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -432px -288px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+li.efsaneilanlar:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -672px -48px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+li.ilginçilanlar:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -312px -408px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+
+
+
+
+ul.soldabosluk{
+	margin-left: 35px;
+}
+
+ul.soldabosluk li{
+	padding: 3px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
