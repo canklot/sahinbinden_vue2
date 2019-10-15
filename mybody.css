@@ -79,7 +79,7 @@ li.hasarsorgulama:before{
 }
 li.otoexpertis:before{
 	background-image: url(pics/simgeler.png);
-	background-position: -168px -552px;
+	background-position: -408px -312px;
     width: 24px;
     height: 24px;
     content: '';
@@ -89,7 +89,7 @@ li.otoexpertis:before{
 }
 li.aracdegerlendirme:before{
 	background-image: url(pics/simgeler.png);
-	background-position: -168px -552px;
+	background-position: -48px -672px;
     width: 24px;
     height: 24px;
     content: '';
@@ -99,7 +99,7 @@ li.aracdegerlendirme:before{
 }
 li.aracsigorta:before{
 	background-image: url(pics/simgeler.png);
-	background-position: -168px -552px;
+	background-position: -360px -360px;
     width: 24px;
     height: 24px;
     content: '';
@@ -107,3 +107,70 @@ li.aracsigorta:before{
     vertical-align: middle;
 	margin: 5px;
 }
+li.emlakendeksi:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -624px -96px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.dask:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -288px -432px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.emlak:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -600px -120px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.dask:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -288px -432px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.dask:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -288px -432px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.dask:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -288px -432px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+    
+ul.soldabosluk{
+	margin-left: 35px;
+}
+    
+
+    
