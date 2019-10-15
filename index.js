@@ -28,3 +28,10 @@ var app2 = new Vue({
     message: 'Peşin fiyatına ölünceye kadar taksit imkanı'
   }
 })
+
+var app6 = new Vue({
+  el: '#app-6',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
