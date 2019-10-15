@@ -199,7 +199,7 @@
 				<li><a href="">Tamirat & Teknik Servis</a></li>
 				<li><a href="">Düğün & Etkinlik</a></li>
 				<li><a href="">Diğer</a></li>
-				<li><a href="">Kapat</a> ^</li>
+				
 				</ul>
                 <hr>
 				<li class="özelders"><a href="">Özel Ders Verenler</a> (9.500)</li>
@@ -207,21 +207,32 @@
                 <li><a href="">Lise & Üniversite Hazırlık</a> (2.729)</li>
                 <li><a href="">İlköğretim</a> (2.843)</li>
                 <li><a href="">Yabancı Dil</a> (1.997)</li>
+                <div id="demo2">
 
-                <li><a href="">Bilgisayar</a> (170)</li>
-                <li><a href="">Direksiyon</a> (459)</li>
-                <li><a href="">Spor</a> (215)</li>
-                <li><a href="">Sanat</a> (70)</li>
-                <li><a href="">Dans</a> (12)</li>
-                <li><a href="">Müzik & Enstrüman</a> (433)</li>
-                <li><a href="">Tiyatro & Oyunculuk</a> (11)</li>
-                <li><a href="">Kişisel Gelişim</a> (65)</li>
-                <li><a href="">Mesleki Dersler</a> (230)</li>
-                <li><a href="">Özel Eğitim</a> (229)</li>
-                <li><a href="">Çocuk Gelişimi</a> (17)</li>
-                <li><a href="">Güzel Konuşma & Diksiyon </a> (10)</li>
-                <li><a href="">Fotoğrafçılık</a> (10)</li>
-                
+                    <span v-if="show">
+                      <li><a href="">Bilgisayar</a> (170)</li>
+                      <li><a href="">Direksiyon</a> (459)</li>
+                      <li><a href="">Spor</a> (215)</li>
+                      <li><a href="">Sanat</a> (70)</li>
+                      <li><a href="">Dans</a> (12)</li>
+                      <li><a href="">Müzik & Enstrüman</a> (433)</li>
+                      <li><a href="">Tiyatro & Oyunculuk</a> (11)</li>
+                      <li><a href="">Kişisel Gelişim</a> (65)</li>
+                      <li><a href="">Mesleki Dersler</a> (230)</li>
+                      <li><a href="">Özel Eğitim</a> (229)</li>
+                      <li><a href="">Çocuk Gelişimi</a> (17)</li>
+                      <li><a href="">Güzel Konuşma & Diksiyon </a> (10)</li>
+                      <li><a href="">Fotoğrafçılık</a> (10)</li>
+
+                    </span>
+                    <p v-on:click="show = !show">
+                      Göster/Gizle
+                    </p>
+                    <transition name="fade">
+                  </transition>
+                </div>
+
+
 				</ul>
                 <hr>
                 <li class="işilanları"><a href="">İş İlanları</a> (12.600)</li>
@@ -232,26 +243,42 @@
                 <li><a href="">Güzellik ve Bakım</a> (961)</li>
                 <li><a href="">IT ve Yazılım Geliştirme</a> (69)</li>
                 <li><a href="">İnsan Kaynakları</a> (19)</li>
-                <li><a href="">İnşaat ve Yapı</a> (143)</li>
-                <li><a href="">İşletme ve Stratejik Yönetim</a> (139)</li>
-                <li><a href="">Koruma ve Güvenlik</a> (512)</li>
-                <li><a href="">Lojistik ve Taşıma</a> (1.565)</li>
-                <li><a href="">Mağazacılık ve Perakendecilik</a> (374)</li>
-                <li><a href="">Muhasebe, Finans ve Bankacılık</a>(173)</li>
-                <li><a href="">Mühendislik</a> (59)</li>
-                <li><a href="">Müşteri Hizmetleri</a> (335)</li>
-                <li><a href="">Ofis Yönetimi ve İdari İşler</a> (711)</li>
-                <li><a href="">Part Time ve Ek İş Fırsatları</a> (609)</li>
-                <li><a href="">Pazarlama ve Ürün Yönetimi</a> (251)</li>
-                <li><a href="">Restoran ve Konaklama</a> (2.862)</li>
-                <li><a href="">Sağlık</a> (101)</li>
-                <li><a href="">Satış</a> (906)</li>
-                <li><a href="">Tamir ve Bakım</a> (684)</li>
-                <li><a href="">Tarım ve Hayvancılık</a> (86)</li>
-                <li><a href="">Tasarım ve Yaratıcılık</a> (144)</li>
-                <li><a href="">Tekstil ve Konfeksiyon</a> (530)</li>
-                <li><a href="">Üretim ve İmalat</a> (479)</li>
-                <li><a href="">Kapat</a> ^</li>
+
+                <div id="demo3">
+
+  <transition name="fade">
+    <span v-if="show">
+      <li><a href="">İnşaat ve Yapı</a> (143)</li>
+      <li><a href="">İşletme ve Stratejik Yönetim</a> (139)</li>
+      <li><a href="">Koruma ve Güvenlik</a> (512)</li>
+      <li><a href="">Lojistik ve Taşıma</a> (1.565)</li>
+      <li><a href="">Mağazacılık ve Perakendecilik</a> (374)</li>
+      <li><a href="">Muhasebe, Finans ve Bankacılık</a>(173)</li>
+      <li><a href="">Mühendislik</a> (59)</li>
+      <li><a href="">Müşteri Hizmetleri</a> (335)</li>
+      <li><a href="">Ofis Yönetimi ve İdari İşler</a> (711)</li>
+      <li><a href="">Part Time ve Ek İş Fırsatları</a> (609)</li>
+      <li><a href="">Pazarlama ve Ürün Yönetimi</a> (251)</li>
+      <li><a href="">Restoran ve Konaklama</a> (2.862)</li>
+      <li><a href="">Sağlık</a> (101)</li>
+      <li><a href="">Satış</a> (906)</li>
+      <li><a href="">Tamir ve Bakım</a> (684)</li>
+      <li><a href="">Tarım ve Hayvancılık</a> (86)</li>
+      <li><a href="">Tasarım ve Yaratıcılık</a> (144)</li>
+      <li><a href="">Tekstil ve Konfeksiyon</a> (530)</li>
+      <li><a href="">Üretim ve İmalat</a> (479)</li>
+
+
+    </span>
+  </transition>
+
+  <p v-on:click="show = !show">
+    Göster/Gizle
+  </p>
+</div>
+
+
+
 				</ul>
                 <hr>
                 <li class="yardımcıara"><a href="">Yardımcı Arayanlar</a> (1.577)</li>
@@ -274,7 +301,7 @@
                 <li><a href="">Deniz Canlıları</a> (142)</li>
                 <li><a href="">Sürüngenler</a> (424)</li>
                 <li><a href="">Böcekler</a> (229)</li>
-                <li><a href="">Kapat</a> ^</li>
+
 				</ul>
 
             </ul>
