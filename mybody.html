@@ -123,22 +123,26 @@
 				<li><a href="">Deniz Araçları</a> (4.434)</li>
 				<li><a href="">Hasarlı Araçlar</a> (4.381)</li>
         <div id="demo">
-  <button v-on:click="show = !show">
-    Toggle
-  </button>
-  <transition name="fade">
-    <p v-if="show">hello</p>
+
+
+    <span v-if="show">
+      <li><a href="">Klasik Araçlar</a> (1.694)</li>
+      <li><a href="">Elektrikli Araçlar</a> (1.335)</li>
+      <li><a href="">Modifiye Araçlar</a> (115)</li>
+      <li><a href="">Hava Araçları</a> (27)</li>
+      <li><a href="">ATV</a>(899)</li>
+      <li><a href="">UTV</a> (80)</li>
+      <li><a href="">Karavan</a> (524)</li>
+      <li><a href="">Engelli Plakalı Araçlar</a> (129)</li>
+    </span>
+    <p v-on:click="show = !show">
+       Göster/Gizle
+    </p>
+    <transition name="fade">
   </transition>
 </div>
-				<li><a href="">Klasik Araçlar</a> (1.694)</li>
-				<li><a href="">Elektrikli Araçlar</a> (1.335)</li>
-				<li><a href="">Modifiye Araçlar</a> (115)</li>
-				<li><a href="">Hava Araçları</a> (27)</li>
-				<li><a href="">ATV</a>(899)</li>
-				<li><a href="">UTV</a> (80)</li>
-				<li><a href="">Karavan</a> (524)</li>
-				<li><a href="">Engelli Plakalı Araçlar</a> (129)</li>
-				<li><a href="">Kapat</a> ^
+
+
 				</ul>
                 <hr>
 
@@ -149,7 +153,7 @@
 				<li><a href="">Motosiklet Ekipmanları</a> (146.671)</li>
 				<li><a href="">Deniz Aracı Ekipmanları</a> (7.038)</li>
 				<li><a href="">Hava Aracı Ekipmanları</a> (16)</li>
-				<li><a href="">Kapat</a> ^</li>
+
 				</ul>
                 <hr>
 				<li class="ikinciel"><a href="">İkinci El veSıfır Alışveriş</a> (1.671.956)</li>
@@ -203,6 +207,7 @@
                 <li><a href="">Lise & Üniversite Hazırlık</a> (2.729)</li>
                 <li><a href="">İlköğretim</a> (2.843)</li>
                 <li><a href="">Yabancı Dil</a> (1.997)</li>
+                
                 <li><a href="">Bilgisayar</a> (170)</li>
                 <li><a href="">Direksiyon</a> (459)</li>
                 <li><a href="">Spor</a> (215)</li>
