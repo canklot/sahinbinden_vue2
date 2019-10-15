@@ -31,3 +31,79 @@ kutu img {
     display: block;
     margin: 0 auto;
 }
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.acil:before {
+    background-image: url(pics/simgeler.png);
+    background-position: -696px -24px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.fiyatidusen:before{
+	background-image: url(pics/simgeler.png);
+    background-position: -552px -168px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.son48:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -168px -552px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.hasarsorgulama:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -504px -216px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.otoexpertis:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -168px -552px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.aracdegerlendirme:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -168px -552px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
+li.aracsigorta:before{
+	background-image: url(pics/simgeler.png);
+	background-position: -168px -552px;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+	margin: 5px;
+}
