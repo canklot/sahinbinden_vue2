@@ -1,19 +1,19 @@
 .center {
   margin: auto;
   width: 65%;
-  border: 3px solid green;
+
 
 }
 .right {
   float: right;
   width: 75%;
-  border: 3px solid #73AD21;
+
 
 }
 .left {
   float: left;
   width: 23%;
-  border: 3px solid #73AD21;
+
 
 }
 .clearfix {
@@ -247,4 +247,8 @@ li.hayvanlaralemi:before{
 
 ul.soldabosluk{
 	margin-left: 35px;
+}
+
+ul.soldabosluk li{
+	padding: 3px;
 }
