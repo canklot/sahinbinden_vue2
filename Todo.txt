@@ -1,2 +1,1 @@
-soldaki listedeki eksik resimler eklenicek boş elementlerin yerleri düzenllenecek
-sağ taraftaki resimler ve yazılar düzenlenecek
+Slider
