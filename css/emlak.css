@@ -12,16 +12,12 @@
 
   .right {
     float: right;
-    right: 0px;
-    width: 300px;
     border: 1px solid #73AD21;
     padding: 10px;
   }
 
   .left {
     float :left;
-    left: 0px;
-    width: 300px;
     border: 1px solid #73AD21;
     padding: 10px;
   }
@@ -35,4 +31,8 @@
   .emlakkategorileri li {
     font-size: 13px;
     line-height: 23px;
+  }
+  .konutfiltre{
+
+    background-image: url("konut.png") top left no-repeat;
   }
