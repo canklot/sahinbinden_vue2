@@ -1,3 +1,4 @@
 Slider
 
 yazı boyutları rengi ve fontları ayarlanacak
+

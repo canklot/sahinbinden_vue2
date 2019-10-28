@@ -6,19 +6,19 @@
 .center {
     margin: auto;
     width: 60%;
-    border: 1px solid green;
+    
     padding: 10px;
   }
 
   .right {
     float: right;
-    border: 1px solid #73AD21;
+    
     
   }
 
   .left {
     float :left;
-    border: 1px solid #73AD21;
+    
     
   }
   .clearfix {
@@ -33,7 +33,7 @@
     text-size-adjust: none;
   }
   .emlakkategorileri{
-    border: 1px solid #eaeaea;
+    
     height: 289px;
   }
   .emlakkategorileri li {
@@ -48,3 +48,7 @@
     background-image:url("../pics/emlak/konut.png"); width: 908px; height: 340px; ;
     
   }
+  .emlakvitrin{
+      width: 60%;
+  }
+  div{border:3px solid yellow}
