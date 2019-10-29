@@ -70,3 +70,12 @@
     display: block;
     margin: 0 auto;
   }
+  .magaza-vitrin{
+
+  }
+  .magaza-vitrin img{
+    height: 35px;
+    padding: 10px;
+    width: 95px;
+    
+  }
