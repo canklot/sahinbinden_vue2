@@ -1,4 +1,4 @@
-
+*{overflow:auto;}
 
 .border{
     border: 2px solid red;
@@ -57,3 +57,11 @@
       width: 60%;
   }
   div{border:3px solid yellow}
+  .ilanlar{
+    text-align: justify;
+    width: 108px;
+  }
+  .ilanler img{
+    display: block;
+    margin: 0 auto;
+  }
