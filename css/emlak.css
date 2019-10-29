@@ -57,10 +57,15 @@
       width: 60%;
   }
   div{border:3px solid yellow}
-  .ilanlar{
+
+  .ilan{
+    
     text-align: justify;
-    width: 108px;
+    width:108px;
+    display: inline-block;
+   
   }
+
   .ilanler img{
     display: block;
     margin: 0 auto;
