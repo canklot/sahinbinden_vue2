@@ -1,0 +1,954 @@
+<!doctype html>
+<html class="" lang="tr">
+<head>
+    <title>Üye Ol</title>
+
+<!-- SAYFA düzenini sağlıyor -->
+
+<link href="https://s0.shbdn.com/assets/common:7c5589959e330525570183497675fd3a.css" media="screen, print" rel="stylesheet" type="text/css">
+<link href="https://s0.shbdn.com/assets/register:eaec8bcdd085aa70be4a978e76a0cf71.css" media="screen, print" rel="stylesheet" type="text/css">
+
+<!-- SAYFA düzenini sağlıyor -->
+
+
+    </head>
+
+
+
+
+
+
+<body class="">
+
+
+    
+            <!-- Messages Box -->
+
+            
+                
+
+               
+                
+
+            
+
+  
+
+
+      
+<div id="container">
+    <div class="registration-container ">
+    <h1>Üye Ol</h1>
+    <div class="registration">
+        <div class="user-register-form form-style-wrapper">
+        <form id="registerForm" action="/kayit" method="post"><input name="guestRegisterToken" type="hidden" value="">
+
+                <ul id="errorList"
+                    class="req"
+                    test="">
+
+                    </ul>
+
+                <div class="registration-type ">
+
+                    <input type="radio"
+                        id="individual"
+                        name="registrationType"
+                        value="STANDART"
+                        checked = "true"
+
+                    />
+                    <label for="individual">Bireysel Üyelik</label>
+
+                    <input type="radio"
+                        id="corporate"
+                        name="registrationType"
+                        value="SUPER"
+                           
+                    />
+                    <label for="corporate">
+                        Kurumsal Üyelik<a href="#"
+                            class="tipitip-trigger tipitip-icon"
+                            title="Emlak, vasıta, ürün alım satımı ile ilgili ticaret yapan kullanıcılarımızın Kurumsal Üye olması gereklidir.">
+                        </a>
+                    </label>
+
+                    </div>
+
+
+
+
+
+
+
+                <!-- ad & soyad -->
+                <div class="split-form">
+                    <!-- ad -->
+                    <dl>
+                        <dt>
+                            <label for="name">Adınız</label></dt>
+
+                        <dd class="mbdef">
+                            <input id="name" name="name" tabindex="1" type="text" class="input-text required" value="" maxlength="50"/></dd>
+                    </dl>
+
+                    <!-- soyad -->
+                    <dl>
+                        <dt>
+                            <label for="surname">Soyadınız</label></dt>
+
+                        <dd class="mbdef">
+                            <input id="surname" name="surname" tabindex="2" type="text" class="input-text required" value="" maxlength="50"/></dd>
+                    </dl>
+                </div>
+
+                <!-- eposta adresi-->
+                <dl>
+                    <dt>
+                        <label for="email">E-Posta Adresiniz<a href="#" class="tipitip-trigger tipitip-icon" title="E-posta adresiniz güncel olarak kullandığınız bir adres olmalı. Size özel tüm bilgilendirmeleri bu adresinize göndereceğiz."></a>
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <input id="email" name="email" title="Kullanmakta olduğunuz ge&ccedil;erli bir e-posta adresi giriniz. &Uuml;yeliğinizi başlatmak i&ccedil;in e-posta adresinize bir onay linki g&ouml;ndereceğiz." tabindex="3" data-close-event="blur" data-open-event="focus" type="text" class="input-text required prevent-space tipitip-trigger" value=""/></dd>
+                </dl>
+
+                <!-- şifre  -->
+                <dl>
+                    <dt>
+                        <label for="password">Şifre</label></dt>
+
+                    <dd class="mbdef">
+                        <div class="password-input-wrapper">
+                            <input id="password" name="password" title="Şifreniz en az 8 karakterden oluşmalı, harf ve rakam i&ccedil;ermelidir." tabindex="4" data-close-event="blur" data-target="#passwordHints" data-open-event="focus" data-live="true" type="password" class="input-text required prevent-space tipitip-trigger" value="" maxlength="50" autocomplete="new-password"/><a href="javascript:;" class="show-hide-password" data-show-text="Göster" data-hide-text="Gizle">Göster</a>
+                            <div id="passwordHints" class="disable">
+                                <ul class="password-hints">
+                                    <li class="8chars">En az 8 karakter</li>
+                                    <li class="1alph">En az 1 harf</li>
+                                    <li class="1num">En az 1 rakam</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </dd>
+                </dl>
+
+
+
+
+
+                <!-- Kurumsal Üyelik-->
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="mobile">
+                            Cep Telefonunuz
+                        </label></dt>
+
+                    <dd class="mbdef with-icon">
+                        <input
+                            class="input-text mobile numericInput"
+                            type="text"
+                            name="corporateForm.mobilePhone"
+                            id="mobile"
+                            placeholder="(5__) _______"
+                            value=""
+                            />
+                    </dd>
+                </dl>
+
+                <dl class="corporate-input sector">
+                        <dt>
+                            <label for="category">
+                                Faaliyet Alanınız
+                            </label>
+                        </dt>
+
+                        <dd class="mbdef">
+                            <select
+                                    id="category"
+                                    name="corporateForm.parentProductId"
+                                    
+                            >
+                                <option value="">Seçiniz</option>
+                               
+                                </select>
+                        </dd>
+                    </dl>
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="pritaveCompany">
+                            İşletme Türü
+                        </label>
+                    </dt>
+
+                    <div class="registration-type corporate-type corporate-input">
+                        <input type="radio"
+                            id="pritaveCompany"
+                            name="corporateForm.addressType"
+                            value="PERSONAL_INVOICE"
+                               checked
+                        />
+
+                        <label for="pritaveCompany" for="corporateForm.addressType">
+                            Şahıs Şirketi
+                        </label>
+
+                        <input type="radio"
+                            id="limitedCompany"
+                            name="corporateForm.addressType"
+                            value="CORPORATE_INVOICE"
+                               
+                        />
+
+                        <label for="limitedCompany">
+                            Limited veya Anonim Şirketi
+                        </label>
+                    </div>
+                </dl>
+
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="limitedCompanyName">
+                            Ticari Ünvan
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <input
+                            type="text"
+                            name="corporateForm.companyName"
+                            id="limitedCompanyName"
+                            class="input-text tipitip-trigger"
+                            data-open-event="focus"
+                            data-close-event="blur"
+                            title="Ticaret Odasına kayıtlı, ticari faaliyetlerinizi yürütürken resmi kurumlarda kullandığınız unvanınızı giriniz. Faturalarınız burada belirteceğiniz ticari unvan adına düzenlenecektir."
+                            value=""
+                            readonly="false"/>
+
+                    </dd>
+                </dl>
+
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="city">
+                            İl
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <select id="city" name="corporateForm.city"
+                                
+                        >
+                            <option value="">Seçiniz</option>
+                            <option
+                                        value="34"
+                                        
+                                >
+                                    İstanbul</option>
+                            <option
+                                        value="6"
+                                        
+                                >
+                                    Ankara</option>
+                            <option
+                                        value="35"
+                                        
+                                >
+                                    İzmir</option>
+                            <option
+                                        value="1"
+                                        
+                                >
+                                    Adana</option>
+                            <option
+                                        value="2"
+                                        
+                                >
+                                    Adıyaman</option>
+                            <option
+                                        value="3"
+                                        
+                                >
+                                    Afyonkarahisar</option>
+                            <option
+                                        value="4"
+                                        
+                                >
+                                    Ağrı</option>
+                            <option
+                                        value="68"
+                                        
+                                >
+                                    Aksaray</option>
+                            <option
+                                        value="5"
+                                        
+                                >
+                                    Amasya</option>
+                            <option
+                                        value="7"
+                                        
+                                >
+                                    Antalya</option>
+                            <option
+                                        value="75"
+                                        
+                                >
+                                    Ardahan</option>
+                            <option
+                                        value="8"
+                                        
+                                >
+                                    Artvin</option>
+                            <option
+                                        value="9"
+                                        
+                                >
+                                    Aydın</option>
+                            <option
+                                        value="10"
+                                        
+                                >
+                                    Balıkesir</option>
+                            <option
+                                        value="74"
+                                        
+                                >
+                                    Bartın</option>
+                            <option
+                                        value="72"
+                                        
+                                >
+                                    Batman</option>
+                            <option
+                                        value="69"
+                                        
+                                >
+                                    Bayburt</option>
+                            <option
+                                        value="11"
+                                        
+                                >
+                                    Bilecik</option>
+                            <option
+                                        value="12"
+                                        
+                                >
+                                    Bingöl</option>
+                            <option
+                                        value="13"
+                                        
+                                >
+                                    Bitlis</option>
+                            <option
+                                        value="14"
+                                        
+                                >
+                                    Bolu</option>
+                            <option
+                                        value="15"
+                                        
+                                >
+                                    Burdur</option>
+                            <option
+                                        value="16"
+                                        
+                                >
+                                    Bursa</option>
+                            <option
+                                        value="17"
+                                        
+                                >
+                                    Çanakkale</option>
+                            <option
+                                        value="18"
+                                        
+                                >
+                                    Çankırı</option>
+                            <option
+                                        value="19"
+                                        
+                                >
+                                    Çorum</option>
+                            <option
+                                        value="20"
+                                        
+                                >
+                                    Denizli</option>
+                            <option
+                                        value="21"
+                                        
+                                >
+                                    Diyarbakır</option>
+                            <option
+                                        value="81"
+                                        
+                                >
+                                    Düzce</option>
+                            <option
+                                        value="22"
+                                        
+                                >
+                                    Edirne</option>
+                            <option
+                                        value="23"
+                                        
+                                >
+                                    Elazığ</option>
+                            <option
+                                        value="24"
+                                        
+                                >
+                                    Erzincan</option>
+                            <option
+                                        value="25"
+                                        
+                                >
+                                    Erzurum</option>
+                            <option
+                                        value="26"
+                                        
+                                >
+                                    Eskişehir</option>
+                            <option
+                                        value="27"
+                                        
+                                >
+                                    Gaziantep</option>
+                            <option
+                                        value="28"
+                                        
+                                >
+                                    Giresun</option>
+                            <option
+                                        value="29"
+                                        
+                                >
+                                    Gümüşhane</option>
+                            <option
+                                        value="30"
+                                        
+                                >
+                                    Hakkari</option>
+                            <option
+                                        value="31"
+                                        
+                                >
+                                    Hatay</option>
+                            <option
+                                        value="76"
+                                        
+                                >
+                                    Iğdır</option>
+                            <option
+                                        value="32"
+                                        
+                                >
+                                    Isparta</option>
+                            <option
+                                        value="46"
+                                        
+                                >
+                                    Kahramanmaraş</option>
+                            <option
+                                        value="78"
+                                        
+                                >
+                                    Karabük</option>
+                            <option
+                                        value="70"
+                                        
+                                >
+                                    Karaman</option>
+                            <option
+                                        value="36"
+                                        
+                                >
+                                    Kars</option>
+                            <option
+                                        value="37"
+                                        
+                                >
+                                    Kastamonu</option>
+                            <option
+                                        value="38"
+                                        
+                                >
+                                    Kayseri</option>
+                            <option
+                                        value="71"
+                                        
+                                >
+                                    Kırıkkale</option>
+                            <option
+                                        value="39"
+                                        
+                                >
+                                    Kırklareli</option>
+                            <option
+                                        value="40"
+                                        
+                                >
+                                    Kırşehir</option>
+                            <option
+                                        value="79"
+                                        
+                                >
+                                    Kilis</option>
+                            <option
+                                        value="41"
+                                        
+                                >
+                                    Kocaeli</option>
+                            <option
+                                        value="42"
+                                        
+                                >
+                                    Konya</option>
+                            <option
+                                        value="43"
+                                        
+                                >
+                                    Kütahya</option>
+                            <option
+                                        value="44"
+                                        
+                                >
+                                    Malatya</option>
+                            <option
+                                        value="45"
+                                        
+                                >
+                                    Manisa</option>
+                            <option
+                                        value="47"
+                                        
+                                >
+                                    Mardin</option>
+                            <option
+                                        value="33"
+                                        
+                                >
+                                    Mersin</option>
+                            <option
+                                        value="48"
+                                        
+                                >
+                                    Muğla</option>
+                            <option
+                                        value="49"
+                                        
+                                >
+                                    Muş</option>
+                            <option
+                                        value="50"
+                                        
+                                >
+                                    Nevşehir</option>
+                            <option
+                                        value="51"
+                                        
+                                >
+                                    Niğde</option>
+                            <option
+                                        value="52"
+                                        
+                                >
+                                    Ordu</option>
+                            <option
+                                        value="80"
+                                        
+                                >
+                                    Osmaniye</option>
+                            <option
+                                        value="53"
+                                        
+                                >
+                                    Rize</option>
+                            <option
+                                        value="54"
+                                        
+                                >
+                                    Sakarya</option>
+                            <option
+                                        value="55"
+                                        
+                                >
+                                    Samsun</option>
+                            <option
+                                        value="56"
+                                        
+                                >
+                                    Siirt</option>
+                            <option
+                                        value="57"
+                                        
+                                >
+                                    Sinop</option>
+                            <option
+                                        value="58"
+                                        
+                                >
+                                    Sivas</option>
+                            <option
+                                        value="63"
+                                        
+                                >
+                                    Şanlıurfa</option>
+                            <option
+                                        value="73"
+                                        
+                                >
+                                    Şırnak</option>
+                            <option
+                                        value="59"
+                                        
+                                >
+                                    Tekirdağ</option>
+                            <option
+                                        value="60"
+                                        
+                                >
+                                    Tokat</option>
+                            <option
+                                        value="61"
+                                        
+                                >
+                                    Trabzon</option>
+                            <option
+                                        value="62"
+                                        
+                                >
+                                    Tunceli</option>
+                            <option
+                                        value="64"
+                                        
+                                >
+                                    Uşak</option>
+                            <option
+                                        value="65"
+                                        
+                                >
+                                    Van</option>
+                            <option
+                                        value="77"
+                                        
+                                >
+                                    Yalova</option>
+                            <option
+                                        value="66"
+                                        
+                                >
+                                    Yozgat</option>
+                            <option
+                                        value="67"
+                                        
+                                >
+                                    Zonguldak</option>
+                            </select>
+
+                        </dd>
+                </dl>
+
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="town">
+                            İlçe
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <select disabled
+                            class="town-input"
+                            id="town"
+                            name="corporateForm.town"
+                                data-selected=""
+                                >
+                            <option>Seçiniz</option>
+                        </select>
+
+                        </dd>
+                </dl>
+
+                <dl class="corporate-input quarter-area">
+                    <dt>
+                        <label for="town">
+                            Mahalle
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <select disabled
+                            class="quarter-input"
+                            id="quarter"
+                            name="corporateForm.quarter"
+                                data-selected=""
+                                >
+                            <option>Seçiniz</option>
+                        </select>
+
+                        <input type="hidden" id="district" name="corporateForm.district" value=""/>
+
+                        </dd>
+                </dl>
+
+                <dl class="corporate-input">
+                    <dt>
+                        <label for="address">
+                            Adres Detayı
+                        </label></dt>
+
+                    <dd class="mbdef">
+                        <textarea id="address"
+                            name="corporateForm.address"
+                            class="tipitip-trigger"
+                            data-open-event="focus"
+                            data-close-event="blur"
+                            minlength="10"
+                            maxlength="250"
+                            title="Firmanızın bulunduğu adres detayını giriniz, tarafımızdan gönderilecek her türlü evrak bu adrese gönderilecektir."
+                              
+                        ></textarea>
+                    </dd>
+                </dl>
+
+                
+
+                <div class="split-form corporate-input">
+                    <dl>
+                        <dt>
+                            <label for="taxOffice">
+                                Vergi Dairesi
+                            </label></dt>
+
+                        <dd class="mbdef">
+                            <select disabled
+                                id="taxOffice"
+                                name="corporateForm.taxOfficeId"
+                                data-selected="">
+                                <option>Seçiniz</option>
+                            </select>
+
+                            </dd>
+                    </dl>
+
+                    <dl class="private-company">
+                        <dt>
+                            <label for="idNumber">
+                                TC Kimlik No
+                            </label></dt>
+
+                        <dd class="mbdef ">
+                            <input id="idNumber" name="corporateForm.idNumber" title="11 haneli TC kimlik numaranızı giriniz." data-close-event="blur" data-open-event="focus" type="text" class="input-text numericInput tipitip-trigger" value="" maxlength="11"/></dd>
+                    </dl>
+
+                    <dl class="limited-company">
+                        <dt>
+                            <label for="taxNumber">
+                                Vergi No
+                            </label></dt>
+
+                        <dd class="mbdef ">
+                            <input id="taxNumber" name="corporateForm.taxNumber" title="Ticari unvanınıza ait 10 haneli vergi numaranızı giriniz." data-close-event="blur" data-open-event="focus" name="taxNumber" type="text" class="input-text numericInput tipitip-trigger" value="" maxlength="10"/></dd>
+                    </dl>
+                </div>
+
+                <div class="split-form corporate-input phones">
+                    <dl>
+                        <dt>
+                            <label for="phone">
+                                Sabit Telefon 1
+                            </label></dt>
+
+                        <dd class="mbdef with-icon split">
+                            <input id="phone" name="corporateForm.firstPhone" title="Firmanıza kayıtlı sabit telefon numaranızı giriniz." data-close-event="blur" data-open-event="focus" name="phone" placeholder="(___) _______" type="text" class="input-text phone numericInput tipitip-trigger" value=""/></dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <label for="phone2">
+                                Sabit Telefon 2
+                            </label></dt>
+
+                        <dd class="phone-box mbdef with-icon split">
+                            <input id="phone2" name="corporateForm.secondPhone" placeholder="(___) _______" type="text" class="input-text phone numericInput" value=""/></dd>
+                    </dl>
+                </div>
+                <!-- Kurumsal Üyelik-->
+
+
+
+
+
+
+
+
+
+                <!-- captcha -->
+                <dl>
+                    <dt>
+                        <label for="captchaValue">Güvenlik Kodu</label></dt>
+
+
+
+
+
+
+
+
+
+                    <!-- TODO: speech aktif yapıldığı zaman wo-speech classı kaldırılması gerekiyor. -->
+                    <dd class="captcha-area wo-speech">
+                        <div class="captcha-container">
+                            <input type="hidden" id="captchaImageBaseURL" value=""/>
+                            <img id="captchaImage" width="107" height="39" src="/captcha?captchaKey=ad446bb1c905e59e00003fdd1a9b1923253bec99" />
+                            <p class="captcha-actions-container">
+                                <a class="refresh" id="refreshCaptcha" href="javascript:;"></a>
+                                <a class="speech" href="javascript:;"></a>
+                            </p>
+                        </div>
+
+                        <div class="captcha-input">
+                            <div>
+                                <input id="captchaValue" name="captchaValue" tabindex="5" data-close-event="blur" data-target="#captchaTooltip" minlength="4" data-open-event="focus" type="text" class="tipitip-trigger input-text prevent-space captchaInputinputText" autocapitalize="none" value="" maxlength="5"/><div id="captchaTooltip" class="tipitip-target">Güvenlik kodunu okuyamıyorsanız <span class="captchaTooltipMiniIcon"></span> ikonuna tıklayarak kodu güncelleyebilirsiniz.</div>
+
+                                </div>
+                            <input id="captchaKey" name="captchaKey" type="hidden" value="ad446bb1c905e59e00003fdd1a9b1923253bec99"/></div>
+                    </dd>
+
+                    <input id="captchaInvalid" type="hidden" value="">
+
+                </dl>
+
+
+
+
+------------------------------------------------------
+
+
+                <!-- kullanıcı sözleşmesi -->
+                <dl class="eula-area">
+                    <dd>
+                        <input
+                            type="checkbox"
+                            id="endUserLicenceAgreement"
+                            name="endUserLicenceAgreement"
+                            tabindex="6" />
+
+                        <label for="endUserLicenceAgreement">
+                            <span>
+                                <label id="corporateAgreement"> <a href="/sozlesmeler/kurumsal-uyelik-sozlesmesi-24" rel="nofollow" target="_blank">Kurumsal Üyelik Sözleşmesi'ni ve Ekleri'ni</a></label><label id="personalAgreement"> <a href="/sozlesmeler/bireysel-uyelik-sozlesmesi-0" rel="nofollow" target="_blank">Üyelik Sözleşmesi'ni ve Ekleri'ni</a></label> kabul ediyorum.</span>
+                        </label>
+                    </dd>
+
+                    <dd id="agreement">
+                        <input
+                            type="checkbox"
+                            id="communicationAgreement"
+                            name="communicationAgreement"
+                            tabindex="7" />
+
+                        <label for="communicationAgreement">
+                             <span>İletişim bilgilerime kampanya, tanıtım ve reklam içerikli ticari elektronik ileti gönderilmesine, bu amaçla kişisel verilerimin işlenmesine ve tedarikçilerinizle paylaşılmasına izin veriyorum.</span>
+                        </label>
+                    </dd>
+                </dl>
+
+                <input id="returnRoute" name="returnRoute.route" type="hidden" value="https://banaozel.sahibinden.com/" value=""/><!-- buton -->
+                <div class="sign-up-container">
+                    <button type="submit" class="btn" id="signUpButton" tabindex="8">Üye Ol</button>
+                </div>
+
+                </form></div>
+
+        <div class="info-box ">
+            <div class="registration-detail">
+                    <h2>Bireysel Üyelik Avantajları Neler?</h2> <p> Evinizi, arabanızı satıp kiralayın, <br/> kullanmadığınız eşyalarınızı satın, <br/> yenilerini alın. </p><ul> <li>Ücretsiz ilan verin,</li><li>İlgilendiğiniz ilanları favorilere ekleyin, <br/>favorilere ekledikten sonraki fiyat <br/>değişimlerini takip edin, kriterlerinize <br/>uygun favori aramalar oluşturun, </li><li>İlan sahipleri ile site içi mesajlaşın.</li></ul></div>
+            <div class="registration-detail corporate">
+                    <h2>Kurumsal Üyelik Avantajları Neler?</h2> <p> Ticaretinizi ve iş hacminizi büyütmek için siz de sahibinden.com kurumsal üyelik dünyasına adım atın. </p><ul> <li>Türkiye’nin her yerindeki milyonlarca alıcıya ulaşın gücünüze güç katın,</li><li>Onay beklemeden ilanlarınızı yayınlayın,</li><li>Size özel çağrı merkezi hizmetinden faydalanın.</li></ul></div>
+            <div class="registration-detail ntvd">
+
+                <h2>Sahibinden Doğal Reklam Üyeliği Avantajları Nedir?</h2> <p> Bilinirliğinizi artırmak için siz de arama sonuç sayfalarında bulunan ilanlar arasında yerinizi alın, Reklam Dünyasına adım atın. </p><ul> <li>Türkiye’nin her yerindeki milyonlarca kişiye ulaşarak bilinirliğinizi artırın,</li><li>Belirlediğiniz kategoride, il ve ilçe seçimleriyle reklam hedefleme yapın,</li><li>Milyarlarca sayfa gösterimi olan arama sonuç sayfalarında görüntülenme fırsatından faydalanın.</li></ul></div>
+
+            <div class="kvkk ">
+                        <p>Bu sayfadaki bilgiler sahibinden.com &uuml;yeliği i&ccedil;in alınmaktadır. Kişisel verilerin korunması hakkında detaylı bilgiye <a href="https://www.sahibinden.com/sozlesmeler/kisisel-verilerin-korunmasi-ve-islenmesi-hakkinda-bilgilendirme-58" target="_blank">buradan</a> ulaşabilirsiniz.</p>
+                    </div>
+                <div class="sub-categories">
+                <h4> <strong>Emlak</strong> <span>Emlak Ofisleri, Müteahhitler, İnşaat Firmaları</span> </h4> <h5> İlan Verebileceğiniz Kategoriler </h5> <p> Sanayi, Elektrik &amp; Enerji, Tarım Makineleri </p></div>
+        </div>
+    </div>
+
+    <!-- confirm dialog -->
+    <div class="disable">
+        <div id="emailConfirmation" class="email-confirmation">
+	<form id="confirmMailForm" name="confirmMailForm">
+		<div class="popup-content">
+			<p>Size doğrulama e-postası göndereceğiz. <br/> Lütfen e-posta adresinizi doğru yazdığınızdan emin olun.</p>
+			<div class="email-container">
+				<div class="view-email">
+					<span id="viewEmail"></span>
+				</div>
+				<div class="edit-email">
+					<input id="confirmEmail" name="confirmEmail" class="inputText required" type="email" />
+				</div>
+			</div>
+			<div class="hidden-inputs"></div>
+		</div>
+
+		<div class="popup-buttons">
+			<a id="confirmEdit" href="javascript:;" class="btn btn-alternative btn-form"
+					data-funnel-trace-register="registerEmailConfirm"
+					data-funnel-trace-register-targetId="confirmEmail">
+					Düzelt</a>
+			<button id="confirmSubmit" class="btn btn-form">Tamam</button>
+		</div>
+	</form>
+</div></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+<script id="gaPageViewTrackingData" type="text/javascript">
+        var pageTrackData = {"trackPageview":[],"customVars":[{"index":1,"name":"site_preference","value":"desktop","scope":2}],"trackEvent":[],"dmpData":[],"transactionObject":null,"transactionUserItem":null,"trackCurrentPage":true,"dc":"gayrettepe","homepageDesign":null,"route":"register","view":"/kayit","viewName":"","query":"","categories":[],"locations":[],"classified":null,"searchResult":null,"storeSubdomain":null,"successfulPaymentWithSavedCC":false};
+    </script>
+    <div id="gaPageViewTrackingJson" data-json="{&quot;trackPageview&quot;:[],&quot;customVars&quot;:[{&quot;index&quot;:1,&quot;name&quot;:&quot;site_preference&quot;,&quot;value&quot;:&quot;desktop&quot;,&quot;scope&quot;:2}],&quot;trackEvent&quot;:[],&quot;dmpData&quot;:[],&quot;transactionObject&quot;:null,&quot;transactionUserItem&quot;:null,&quot;trackCurrentPage&quot;:true,&quot;dc&quot;:&quot;gayrettepe&quot;,&quot;homepageDesign&quot;:null,&quot;route&quot;:&quot;register&quot;,&quot;view&quot;:&quot;/kayit&quot;,&quot;viewName&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;categories&quot;:[],&quot;locations&quot;:[],&quot;classified&quot;:null,&quot;searchResult&quot;:null,&quot;storeSubdomain&quot;:null,&quot;successfulPaymentWithSavedCC&quot;:false}"></div>
+<script type="text/javascript">
+    (function () {
+        var cookiestring = RegExp("vid=[^;]+").exec(document.cookie),
+                vid = ~~(unescape(!!cookiestring ? cookiestring.toString().replace(/^[^=]+/, "").replace("=", "") : "")),
+                v = (29 < vid && vid < 40) ? 'Test' : '',
+                t = parseInt(new Date().getTime() / 1000 / 60 / 30),
+                an = document.createElement('script'),
+                scr = document.getElementsByTagName('script')[0];
+
+        an.type = 'text/javascript';
+        an.async = true;
+        an.src = 'https://static.sahibinden.com/assets/analytics' + v + ':1.js?t=' + t;
+        scr.parentNode.insertBefore(an, scr);
+    })();
+</script>
+<script type="text/javascript">
+    var pp_gemius_identifier = 'bPeQ_0eeWvPc3Iqa7jJQEcUGjy2NXYOoUvs1RDjCPDH.v7',
+        initial_pp_gemius_identifier = 'bPeQ_0eeWvPc3Iqa7jJQEcUGjy2NXYOoUvs1RDjCPDH.v7';
+</script>
+<noscript>
+    <img src="https://b.scorecardresearch.com/p?c1=2&amp;c2=9543297&amp;cv=2.0&amp;cj=1" alt="scorecardresearch"/>
+</noscript>
+<script src="https://s0.shbdn.com/assets/prebid:1cb6efb1bdb3f2e426be9ab7cf4cc300.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/gemius:fe0a55a10380725904fad1feea2c7ef3.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/prebid:1cb6efb1bdb3f2e426be9ab7cf4cc300.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/common:e0a80e89956481f92f12d37454f5faa4.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/searchSuggestion:eb456c64e11797c63786ce930e25d268.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/register:9d39f75b0836c28554da4917cb6632ff.js" type="text/javascript"> </script>
+<script src="https://s0.shbdn.com/assets/lastScripts:cfa5d49129048f4e398f292f2accea2c.js" type="text/javascript"> </script>
+</body>
+</html>
