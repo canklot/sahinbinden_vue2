@@ -79,3 +79,29 @@
     width: 95px;
     
   }
+.sarikutu{
+
+  width: 818px;
+  height: 131px;
+  background-color: rgba(247,247,247,0.9);
+  border-radius: 2px;
+  border-top: 6px solid #ecc40c;
+  position: relative;
+  top: 180px;
+  left:40px;
+}
+
+.sariust{
+
+  padding: 18px 20px 0 20px;
+  position: relative;
+}
+.sarialt{
+  
+}
+.sarialt input{
+ width:80px;
+ margin:10px;
+ margin-left: 20px;
+ 
+}
