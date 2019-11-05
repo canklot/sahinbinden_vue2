@@ -1,0 +1,28 @@
+*{
+  overflow: auto;
+  padding:0px;
+  margin: 0px;
+}
+
+div{
+    border:1px solid red;
+    
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    
+    padding: 10px;
+  }
+  
+  .right {
+    float: right;
+    width: 80%;
+
+  }
+
+  .left {
+    float :left;
+    width: 18%;
+  }
