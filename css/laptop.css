@@ -26,3 +26,38 @@ div{
     float :left;
     width: 18%;
   }
+.ilan{
+height: 78px;
+font: 12px "Lucida Grande","LucidaGrande",Arial,sans-serif;
+width:900px;
+}
+.ilan img{
+  float: left;
+}
+.ilan ilanbaslik{
+  float: left;
+  width:500px;
+}
+.ilan fiyat{
+  width: 100px;
+}
+.ilan tarih{
+  width: 100px;
+
+}
+.ilan il{
+  width: 100px;
+
+}
+
+
+
+
+.container{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    
+}
+
