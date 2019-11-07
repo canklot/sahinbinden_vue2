@@ -94,3 +94,19 @@ kategoriler {
 .left h3{
   margin-top: 10px;
 }
+.fiyatfiltre{
+
+}
+.fiyatfiltre button{
+  width: 46PX;
+  height: 25px;
+  float: right;
+  border: 1px solid #fff;;
+}
+
+.fiyatfiltre button:hover{
+  background-color: #039;;
+}
+.fiyatfiltre button.active{
+  background-color: #039;
+}
