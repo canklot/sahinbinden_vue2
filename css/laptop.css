@@ -48,7 +48,8 @@ kategoriler {
   border: solid 5px #dedede;
 }
 .soldakikutularortak {
-  width: 200px;
+  padding: 10px;
+  width: 180px;
   background: rgb(244, 244, 244);
 }
 
