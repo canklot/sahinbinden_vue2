@@ -2,7 +2,7 @@
     <link rel="stylesheet" type="text/css" href="css/laptop.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    
+    <script src="js/vue.js"></script>
 </head>
 
 <header>
@@ -149,13 +149,28 @@
             </div>
         </div>
     </div>
-    <img class= "fixed" src="pics/laptop/button.png">
+    
 
     
 
 </div>
 
-<footer>
+<div id="demo">
+        
+        <button  class="fixed" v-on:click="show = !show">
+        <img class="butimg" src="pics/laptop/button.png">
+        </button>
+        <transition name="fade">
+          <div v-if="show">
+              
+            hello
+        
+          </div>
+        </transition>
+      </div>
+
+<footer >
+    <div >
     <div class="footer-container">
     <div class="footer phdef pvdef clearfix">
         <ul class="footerMenu footer-menu">
@@ -303,4 +318,7 @@
     
         <p class="copyright mobil">
             Copyright © 2000-2019 sahibinden.com</p>
-            </footer>
+        </div>    
+        </footer>
+
+        <script src="js/laptop.js"></script>
