@@ -2,7 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import Footer from './Footer.vue'
 import Header from './Header.vue'
-
+import Emlak from './Emlak.vue'
+import Laptop from './Laptop.vue'
 import Anasayfamockup from './Anasayfamockup.vue'
 
 new Vue({
@@ -11,8 +12,8 @@ new Vue({
 })
 
 new Vue({
-  el: '#Anasayfamockup',
-  render: h => h(Anasayfamockup)
+  el: '#Laptop',
+  render: h => h(Laptop)
 })
 
 
