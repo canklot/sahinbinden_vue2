@@ -1,4 +1,1 @@
-Slider
-
-yazı boyutları rengi ve fontları ayarlanacak
-
+anasayfadaki giriş yap üye ol silindi bir sebepten onlar eklenmeli
