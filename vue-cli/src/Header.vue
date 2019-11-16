@@ -75,35 +75,6 @@
 
 
 <script>
-var pageTrackData = {
-                                "trackPageview": [],
-                                "customVars": [{
-                                    "index": 1,
-                                    "name": "site_preference",
-                                    "value": "desktop",
-                                    "scope": 2
-                                }],
-                                "trackEvent": [],
-                                "dmpData": [],
-                                "transactionObject": null,
-                                "transactionUserItem": null,
-                                "trackCurrentPage": true,
-                                "dc": "gayrettepe",
-                                "homepageDesign": null,
-                                "route": "homepage",
-                                "view": "homepage",
-                                "viewName": "",
-                                "query": "",
-                                "categories": [],
-                                "locations": [],
-                                "classified": null,
-                                "searchResult": null,
-                                "storeSubdomain": null,
-                                "successfulPaymentWithSavedCC": false
-                            };
-
-
-
                             
 </script>
 
