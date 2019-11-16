@@ -5,6 +5,7 @@ import Header from './Header.vue'
 import Emlak from './Emlak.vue'
 import Laptop from './Laptop.vue'
 import Anasayfamockup from './Anasayfamockup.vue'
+import AnasayfaHD from './AnasayfaHD.vue'
 
 new Vue({
   el: '#Header',
