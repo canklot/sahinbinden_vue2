@@ -6,6 +6,13 @@ import Emlak from './Emlak.vue'
 import Laptop from './Laptop.vue'
 import Anasayfamockup from './Anasayfamockup.vue'
 import AnasayfaHD from './AnasayfaHD.vue'
+import VueRouter from "vue-router"
+import {routes} from "./routes";
+
+Vue.use(VueRouter);
+const router = new VueRouter({
+routes
+  });
 
 new Vue({
   el: '#Header',
@@ -13,8 +20,9 @@ new Vue({
 })
 
 new Vue({
-  el: '#Laptop',
-  render: h => h(Laptop)
+  el: '#App',
+  router,
+  render: h => h(App)
 })
 
 
