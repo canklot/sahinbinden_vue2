@@ -44,6 +44,8 @@
 				<li><a href="">Kiralık Araçlar</a> (8.872)</li>
 				<li><a href="">Deniz Araçları</a> (4.434)</li>
 				<li><a href="">Hasarlı Araçlar</a> (4.381)</li>
+                </ul>
+               
         <div id="demo">
 
 
@@ -71,7 +73,7 @@
 
 				<li class="yedek"><a href=""> Yedek Parça, Aksesuar,Donanım</a> (1.795.597) </li>
 				<ul class="no_bullet soldabosluk">
-				<a href="">Otomotiv Ekipmanları</a> (1.641.871)</li>
+				<li><a href="">Otomotiv Ekipmanları</a> (1.641.871)</li>
 				<li><a href="">Motosiklet Ekipmanları</a> (146.671)</li>
 				<li><a href="">Deniz Aracı Ekipmanları</a> (7.038)</li>
 				<li><a href="">Hava Aracı Ekipmanları</a> (16)</li>
@@ -115,15 +117,14 @@
                 <hr>
                 <li class="ustalar"><a href="">Ustalar ve Hizmetler</a> (23.773)
 				<ul class="no_bullet soldabosluk">
-				</li><li><a href="">Ev Tadilat & Dekorasyon</a></li>
+				<li><a href="">Ev Tadilat & Dekorasyon</a></li>
 				<li><a href="">Nakliye</a></li>
 				<li><a href="">Araç Servis & Bakım</a></li>
 				<li><a href="">Tamirat & Teknik Servis</a></li>
 				<li><a href="">Düğün & Etkinlik</a></li>
 				<li><a href="">Diğer</a></li>
-
-
 				</ul>
+
                 <hr>
 				<li class="özelders"><a href="">Özel Ders Verenler</a> (9.500)</li>
 				<ul class="no_bullet soldabosluk">
@@ -209,7 +210,7 @@
                 <li><a href="">Bebek & Çocuk Bakıcısı </a> (614)</li>
                 <li><a href="">Yaşlı & Hasta Bakıcısı</a> (206)</li>
                 <li><a href="">Temizlikçi & Ev İşlerine Yardımcı</a> (757)</li>
-				</ul>
+				
                 <hr>
                 <li class="hayvanlaralemi"><a href="">Hayvanlar Alemi</a> (101.309)</li>
 				<ul class="no_bullet soldabosluk">
@@ -316,8 +317,7 @@
             </kutu>
 
            
-                </a>
-            </kutu>
+                
 
             <kutu>
                 <a href="https://www.w3schools.com">
@@ -650,11 +650,11 @@
                         <div style="float:left; margin-left: 200px; width: 300px"><a href="https://www.w3schools.com">Folkart Yaka Evleri (İzmir / Karşıyaka)</a><br>m2: 69 m2 - 138 m2<br>Teslim Tarihi: Ağustos 2020</div>
                     </span>
         <br>
-		</br><br><br><br><div style="float:left">Günün Fırsat Ürünleri</div><div style="float:right"><a href="">Tüm Fırsatları Göster</a></div>	
+		<br><br><br><br><div style="float:left">Günün Fırsat Ürünleri</div><div style="float:right"><a href="">Tüm Fırsatları Göster</a></div>	
 		<br><br>
 		<img src="body resimler/11.PNG" alt="Smiley face" height="250" width="875"> 
 		
-		</br><div style="float:left">İlginç İlanlar</div><div style="float:right"><a href="">Tüm İlginç İlanları Göster</a></div><br><br>
+		<br><div style="float:left">İlginç İlanlar</div><div style="float:right"><a href="">Tüm İlginç İlanları Göster</a></div><br><br>
 		
 		
 </div>
