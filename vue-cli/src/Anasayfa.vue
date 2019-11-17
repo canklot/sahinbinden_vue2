@@ -1246,7 +1246,28 @@
 
 
 
-<script></script>
+<script>
+
+
+
+ export default {
+    name: 'App',
+    metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Sahibinden.com',
+      // all titles will be injected into this template
+      titleTemplate: '%s | Anasayfa'
+    }
+  }
+
+
+
+
+
+
+
+
+</script>
 
 
 
