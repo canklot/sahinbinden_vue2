@@ -103,8 +103,7 @@
 
 
 <style>
-/*! CSS Used from: https://s0.shbdn.com/assets/common:7c5589959e330525570183497675fd3a.css ; media=screen, print */
-@media screen, print{
+@media screen {
 h1,h3,p,ul,li,a{margin:0;padding:0;background:no-repeat 0 0;}
 ul{list-style:none;}
 a{color:#039;text-decoration:none;outline:0;}
@@ -127,8 +126,7 @@ a:hover{text-decoration:underline;}
 .c3,.c10{float:left;min-height:12px;}
 .c3{width:250px;}
 }
-/*! CSS Used from: https://s0.shbdn.com/assets/corporateAboutUs:79f2c8b2e37211306af0ab6ea1c8d7ce.css ; media=screen, print */
-@media screen, print{
+@media screen{
 .CorporateContent .c3{width:285px!important;}
 .CorporateContent .c10{_display:inline!important;width:689px!important;}
 .aboutUsMenu,.contactUs{background-color:#fff;border:1px #dbdbdb solid;}
