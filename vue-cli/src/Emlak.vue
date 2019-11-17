@@ -2087,7 +2087,62 @@
 </div>
 </template>
 
-<script></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+export default {
+    metaInfo: {
+      title: 'My Example App',
+      titleTemplate: '%s - Yay!',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    }
+  }
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 /*! CSS Used from: https://s0.shbdn.com/assets/common:7c5589959e330525570183497675fd3a.css ; media=screen, print */

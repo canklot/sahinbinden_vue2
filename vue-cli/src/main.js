@@ -8,6 +8,12 @@ import Anasayfamockup from './Anasayfamockup.vue'
 import AnasayfaHD from './AnasayfaHD.vue'
 import VueRouter from "vue-router"
 import {routes} from "./routes";
+import VueMeta from 'vue-meta'
+
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
+})
 
 Vue.use(VueRouter);
 const router = new VueRouter({
