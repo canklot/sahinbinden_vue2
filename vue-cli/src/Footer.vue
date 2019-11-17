@@ -7,7 +7,7 @@
             <h2>Kurumsal</h2>
             <ul>
               <li>
-                <a>Hakkımızda</a>
+                <a href="/#/Hakkımızda">Hakkımızda</a>
               </li>
               <li>
                 <a> Medya İletişimi ve Görseller</a>
