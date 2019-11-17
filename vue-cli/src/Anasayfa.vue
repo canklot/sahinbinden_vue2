@@ -26,7 +26,7 @@
           <li class="emlakendeksi"><a href="">Emlak Endeksi</a></li>
           <li class="dask"><a href="">DASK ve Konut Sigortası yeni</a></li>
           <hr />
-          <li class="emlak"><a href="">Emlak</a> (1.027.885)</li>
+          <li class="emlak"><a href="/#/Emlak">Emlak</a> (1.027.885)</li>
           <ul class="no_bullet soldabosluk">
             <li><a href="">Konut</a>(696.295)</li>
             <li><a href="">İşyeri</a> (131.244)</li>
@@ -82,7 +82,7 @@
           <a href="">İkinci El veSıfır Alışveriş</a> (1.671.956)
         </li>
         <ul class="no_bullet soldabosluk">
-          <li><a href="">Bilgisayar</a>(252.591)</li>
+          <li><a href="/#/Laptop">Bilgisayar</a>(252.591)</li>
           <li><a href="">Cep Telefonu</a> (225.453)</li>
           <li><a href="">Fotoğraf & Kamera</a> (40.426)</li>
           <li><a href="">Ev Dekorasyon</a> (196.785)</li>
