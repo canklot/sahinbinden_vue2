@@ -27,10 +27,11 @@ new Vue({
   render: h => h(Header)
 })
 
+//Burayı değiştirme onun yerine routese ekle görmek istedğin yeri
 new Vue({
-  el: '#Laptop',
+  el: '#App',
   router,
-  render: h => h(Laptop)
+  render: h => h(App)
 })
 
 
