@@ -2104,14 +2104,13 @@
 
 <script>
 
-export default {
+ export default {
+    name: 'App',
     metaInfo: {
-      title: 'My Example App',
-      titleTemplate: '%s - Yay!',
-      htmlAttrs: {
-        lang: 'en',
-        amp: true
-      }
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Sahibinden.com ',
+      // all titles will be injected into this template
+      titleTemplate: '%s | Laptop'
     }
   }
 

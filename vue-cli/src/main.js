@@ -9,6 +9,7 @@ import AnasayfaHD from './AnasayfaHD.vue'
 import VueRouter from "vue-router"
 import {routes} from "./routes";
 import VueMeta from 'vue-meta'
+import Meta from 'vue-meta'
 
 Vue.use(VueMeta, {
   // optional pluginOptions
@@ -16,6 +17,7 @@ Vue.use(VueMeta, {
 })
 
 Vue.use(VueRouter);
+Vue.use(Meta)
 const router = new VueRouter({
 routes
   });
