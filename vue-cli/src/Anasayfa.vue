@@ -643,6 +643,7 @@
     <h3>
         <br><br><br><br><br>
          <div style="float:left">Projeler</div><div style="margin-left: 700px; width:200px"><a href="">Tüm Projeleri Göster</a></div>
+          </h3>
 		<br>
         <div><img src="body resimler/0.1.jpg" alt="Smiley face" height="175" width="375"><div style="float:right;"><img src="body resimler/0.2.png" alt="Smiley face" height="175" width="375"></div></div><br>
                     <span><div style="float:left; width: 300px"><a href="https://www.w3schools.com">Avcılar Exclusive (İzmir / Bayraklı)</a><br>m2: 100 m2 - 173 m2<br>Teslim Tarihi: Haziran 2021</div>
@@ -728,8 +729,8 @@
                     <a href=""><benikutula class="one"> iPhone XS Max</benikutula> </a> 
                      <a href=""><benikutula class="one"> Araç Kiralama </benikutula></a>  
                      <a href=""><benikutula class="one"> Kiralık Villa </benikutula></a>
-                      <a href=""> <benikutula class="one"> Passat </a>  <a href="">
-                             <benikutula class="one"> Kiralık Daire</benikutula> </a> 
+                      <a href=""> <benikutula class="one"> Passat</benikutula> </a>  
+                      <a href=""> <benikutula class="one"> Kiralık Daire</benikutula> </a> 
                               <a href=""><benikutula class="one"> Araba</benikutula> </a>  
                               <a href=""><benikutula class="one"> Golf</benikutula> </a>
 				  
@@ -766,7 +767,7 @@
                    <a href=""><benikutula class="one"> Satış</benikutula> </a> 
                    <a href=""><benikutula class="one">  Müşteri Hizmetleri </benikutula></a>  
 				  
-                  <div> <a href=""><benikutula class="one">İstanbul İş İlanları</a> 
+                  <div> <a href=""><benikutula class="one">İstanbul İş İlanları</benikutula></a> 
                    <a href=""><benikutula class="one"> Ankara İş İlanları</benikutula> </a> 
                     <a href=""><benikutula class="one"> İzmir İş İlanları </benikutula></a> 
                      <a href=""><benikutula class="one"> Adana İş İlanları </benikutula></a> 
