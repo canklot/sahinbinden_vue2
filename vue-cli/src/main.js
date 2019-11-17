@@ -5,7 +5,7 @@ import Header from './Header.vue'
 import Emlak from './Emlak.vue'
 import Laptop from './Laptop.vue'
 import Anasayfamockup from './Anasayfamockup.vue'
-import AnasayfaHD from './AnasayfaHD.vue'
+import Anasayfa from './Anasayfa.vue'
 import VueRouter from "vue-router"
 import {routes} from "./routes";
 import VueMeta from 'vue-meta'
@@ -28,9 +28,9 @@ new Vue({
 })
 
 new Vue({
-  el: '#App',
+  el: '#Anasayfa',
   router,
-  render: h => h(App)
+  render: h => h(Anasayfa)
 })
 
 

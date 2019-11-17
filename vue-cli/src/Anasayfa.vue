@@ -1,8 +1,10 @@
 <template>
-  
+ 
+
+
 <body>
 <kutular class="right clearfix">
-<pre><img src="body resimler/18.png" alt="Smiley face" height="255" width="1200"></pre>
+<img src="body resimler/18.PNG" alt="Smiley face" height="255" width="1200">
 </kutular>
 
 
@@ -200,7 +202,7 @@
 
 
 
-				
+				</ul>
                 <hr>
                 <li class="yardımcıara"><a href="">Yardımcı Arayanlar</a> (1.577)</li>
 				<ul class="no_bullet soldabosluk">
@@ -233,7 +235,8 @@
 			  <li class="efsaneilanlar"><a href="">Efsane İlanlar</a></li>
 			  <li class="ilginçilanlar"><a href="">İlginç İlanlar</a></li>
 			  
-			  <pre>Haberler                <a href="">Tüm Haberler</a></pre>
+              <div style="float:left">Haberler</div>
+              <div style="float:right"><a href="">Tüm Haberler</a></div><br>
 			  <hr>
 			  <li><a href="">sahibinden.com'a 3 Ödül Birden!</a></li>
 			  <li><a href="">sahibinden.com Brand of the Year seçildi</a></li>
@@ -248,8 +251,7 @@
 		
 		
 		
-            <pre>Anasayfa Vitrini									         Tüm vitrin ilanlarını göster</pre>
-
+            <div style="float:left">Anasayfa Vitrini</div><div style="float:right; padding-right: 30px"><a href="">Tüm vitrin ilanlarını göster</a></div><br>
             <kutu>
 			
 			
@@ -314,7 +316,8 @@
             </kutu>
 
            
-        
+                </a>
+            </kutu>
 
             <kutu>
                 <a href="https://www.w3schools.com">
@@ -634,27 +637,23 @@
 				
 				</kutu>
 
- <div class="left2">
+ <div class=""> <!--div class="left2">-->
 
-<img src="body resimler/14.png" alt="Smiley face" height="110" width="900">
+<img src="body resimler/14.PNG" alt="Smiley face" height="110" width="900">
     <h3>
-        <small>
-         <pre>  <br><br><br><br><br>   Projeler                                                  						   <a href="">Tüm Projeleri Göster</a> </pre>
-        </small>
+        <br><br><br><br><br>
+         <div style="float:left">Projeler</div><div style="margin-left: 700px; width:200px"><a href="">Tüm Projeleri Göster</a></div>
+		<br>
+        <div><img src="body resimler/0.1.jpg" alt="Smiley face" height="175" width="375"><div style="float:right;"><img src="body resimler/0.2.png" alt="Smiley face" height="175" width="375"></div></div><br>
+                    <span><div style="float:left; width: 300px"><a href="https://www.w3schools.com">Avcılar Exclusive (İzmir / Bayraklı)</a><br>m2: 100 m2 - 173 m2<br>Teslim Tarihi: Haziran 2021</div>
+                        <div style="float:left; margin-left: 200px; width: 300px"><a href="https://www.w3schools.com">Folkart Yaka Evleri (İzmir / Karşıyaka)</a><br>m2: 69 m2 - 138 m2<br>Teslim Tarihi: Ağustos 2020</div>
+                    </span>
+        <br>
+		</br><br><br><br><div style="float:left">Günün Fırsat Ürünleri</div><div style="float:right"><a href="">Tüm Fırsatları Göster</a></div>	
+		<br><br>
+		<img src="body resimler/11.PNG" alt="Smiley face" height="250" width="875"> 
 		
-		
-	
-                
-                  <pre>  <img src="body resimler/0.1.jpg" alt="Smiley face" height="175" width="375">       <img src="body resimler/0.2.png" alt="Smiley face" height="175" width="375"></pre>
-                    <span><pre>    <a href="https://www.w3schools.com">Avcılar Exclusive (İzmir / Bayraklı)</a>      	          <a href="https://www.w3schools.com">Folkart Yaka Evleri (İzmir / Karşıyaka) </a>  
-    m2: 100 m2 - 173 m2  			      	  m2: 69 m2 - 138 m2
-    Teslim Tarihi: Haziran 2021       		   	  Teslim Tarihi: Ağustos 2020</pre></span>
-                
-		</br><pre>Günün Fırsat Ürünleri		 				                 	<a href="">Tüm Fırsatları Göster</a>	</pre>	
-		
-		<img src="body resimler/11.png" alt="Smiley face" height="250" width="875"> 
-		
-		</br><pre>İlginç İlanlar		 				                 	  <a href="">Tüm İlginç İlanları Göster</a>	</pre>	
+		</br><div style="float:left">İlginç İlanlar</div><div style="float:right"><a href="">Tüm İlginç İlanları Göster</a></div><br><br>
 		
 		
 </div>
@@ -709,46 +708,105 @@
             </kutu>
 			
 			
-			<img src="body resimler/12.png" alt="Smiley face" height="150" width="875"> 
+			<img src="body resimler/12.PNG" alt="Smiley face" height="150" width="875"> 
 			
-		<pre>	  Dronelar 	      Giyilebilir Teknoloji 	 Kablosuz Kulaklıklar	    Aksiyon Kameralar       Elektrikli El Aletleri</pre>
+        <div><span style="margin-left:70px;margin-right:70px">Dronelar</span>
+            <span style="margin-left:30px;margin-right:50px">Giyilebilir Teknoloji</span>
+            <span style="margin-left:20px;margin-right:30px">Kablosuz Kulaklıklar</span>
+            <span style="margin-left:30px;margin-right:30px">Aksiyon Kameralar</span>
+            <span style="margin-left:10px;margin-right:50px">Elektrikli Ev Aletleri</span>
+        </div>
 		
-		<img src="body resimler/13.png" alt="Smiley face" height="255" width="880">
-		<br><br>
-		 Popüler Aramalar
+		<img src="body resimler/13.PNG" alt="Smiley face" height="255" width="880">
+        <br><br><br>
+        <div style="height:100px">
+		 Popüler Aramalar<br>
 		 
 		          
-                  <pre> <a href=""><benikutula class="one"> ikinciel </a>  <a href=""><benikutula class="one"> iPhone XS </a>  <a href=""><benikutula class="one"> iPhone XS Max </a>  <a href=""><benikutula class="one"> Araç Kiralama </a>  <a href=""><benikutula class="one"> Kiralık Villa </a> <a href=""> <benikutula class="one"> Passat </a>  <a href=""><benikutula class="one"> Kiralık Daire </a>  <a href=""><benikutula class="one"> Araba </a>  <a href=""><benikutula class="one"> Golf </a>
+                  <div> <a href=""><benikutula class="one"> ikinciel </benikutula></a> 
+                   <a href=""><benikutula class="one"> iPhone XS </benikutula> </a> 
+                    <a href=""><benikutula class="one"> iPhone XS Max</benikutula> </a> 
+                     <a href=""><benikutula class="one"> Araç Kiralama </benikutula></a>  
+                     <a href=""><benikutula class="one"> Kiralık Villa </benikutula></a>
+                      <a href=""> <benikutula class="one"> Passat </a>  <a href="">
+                             <benikutula class="one"> Kiralık Daire</benikutula> </a> 
+                              <a href=""><benikutula class="one"> Araba</benikutula> </a>  
+                              <a href=""><benikutula class="one"> Golf</benikutula> </a>
 				  
 				 
- <a href=""><benikutula class="one"> Galaxy Note 9 </a>    <a href=""><benikutula class="one"> İstanbul Kiralık Daire </a>    <a href=""><benikutula class="one"> ikinci el otomobil </a> </pre>
+ <a href=""><benikutula class="one"> Galaxy Note 9 </benikutula></a>
+ <a href=""><benikutula class="one"> İstanbul Kiralık Daire </benikutula></a>  
+   <a href=""><benikutula class="one"> ikinci el otomobil </benikutula></a> </div>
  <br><br>
- 
- En Çok Aranan Hizmetler
+</div>
+<br><br><br>
+ En Çok Aranan Hizmetler<br>
 		                   
-                  <pre> <a href=""><benikutula class="one"> Boyacı </a>  <a href=""><benikutula class="one"> Evden Eve Nakliye </a>  <a href=""><benikutula class="one"> Mantoloma </a>  <a href=""><benikutula class="one"> Su Tesisatı </a>  <a href=""><benikutula class="one"> Doğal Gaz Tesisatı </a> <a href=""><benikutula class="one">  Oto Boya </a>  <a href=""><benikutula class="one"> Oto Tamiri </a>  <a href=""> <benikutula class="one"> Elektrikçi </a>  
-				  </pre>
+                  <div> <a href=""><benikutula class="one"> Boyacı </benikutula></a>  
+                  <a href=""><benikutula class="one"> Evden Eve Nakliye </benikutula></a> 
+                   <a href=""><benikutula class="one"> Mantoloma</benikutula> </a> 
+                    <a href=""><benikutula class="one"> Su Tesisatı </benikutula></a> 
+                     <a href=""><benikutula class="one"> Doğal Gaz Tesisatı</benikutula> </a> 
+                     <a href=""><benikutula class="one">  Oto Boya</benikutula> </a> 
+                      <a href=""><benikutula class="one"> Oto Tamiri</benikutula> </a>  
+                      <a href=""> <benikutula class="one"> Elektrikçi </benikutula></a>  
+				  </div>
 				 
-                  <pre> <a href=""><benikutula class="one"> Çilingir </a>  <a href=""><benikutula class="one"> Plaka </a>  <a href=""><benikutula class="one"> Parke </a>  <a href=""><benikutula class="one"> Mutfak Yenileme </a> 
- <br><br>
- En Çok Aranan İş İlanları
+                  <div> <a href=""><benikutula class="one"> Çilingir </benikutula></a>  
+                  <a href=""><benikutula class="one"> Plaka </benikutula></a>  
+                  <a href=""><benikutula class="one"> Parke</benikutula> </a>  
+                  <a href=""><benikutula class="one"> Mutfak Yenileme</benikutula> </a> 
+ <br><br><br><br><br><br><br><br><br><br>
+ En Çok Aranan İş İlanları<br>
 		                   
-                  <pre> <a href=""><benikutula class="one"> Restoran ve Konaklama </a>  <a href=""><benikutula class="one">Mağaza ve Perakendecilik </a>  <a href=""><benikutula class="one"> Tekstil ve Konfeksiyon </a>  <a href=""><benikutula class="one"> Ofis Elemanı </a>  <a href=""><benikutula class="one"> Satış </a> <a href=""><benikutula class="one">  Müşteri Hizmetleri </a>  
+                  <div> <a href=""><benikutula class="one"> Restoran ve Konaklama</benikutula> </a> 
+                   <a href=""><benikutula class="one">Mağaza ve Perakendecilik</benikutula> </a>  
+                   <a href=""><benikutula class="one"> Tekstil ve Konfeksiyon </benikutula></a>  
+                   <a href=""><benikutula class="one"> Ofis Elemanı </benikutula></a>  
+                   <a href=""><benikutula class="one"> Satış</benikutula> </a> 
+                   <a href=""><benikutula class="one">  Müşteri Hizmetleri </benikutula></a>  
 				  
-                  <pre> <a href=""><benikutula class="one">İstanbul İş İlanları</a>  <a href=""><benikutula class="one"> Ankara İş İlanları </a>  <a href=""><benikutula class="one"> İzmir İş İlanları </a>  <a href=""><benikutula class="one"> Adana İş İlanları </a>  <a href=""><benikutula class="one"> Bursa İş İlanları </a> <a href=""><benikutula class="one">Antalya İş İlanları </a>  
+                  <div> <a href=""><benikutula class="one">İstanbul İş İlanları</a> 
+                   <a href=""><benikutula class="one"> Ankara İş İlanları</benikutula> </a> 
+                    <a href=""><benikutula class="one"> İzmir İş İlanları </benikutula></a> 
+                     <a href=""><benikutula class="one"> Adana İş İlanları </benikutula></a> 
+                      <a href=""><benikutula class="one"> Bursa İş İlanları </benikutula></a> 
+                      <a href=""><benikutula class="one">Antalya İş İlanları</benikutula> </a>  
            
                 </div>
 				
 
 			</kutular>
-    </div>
-	
-    </div>
-	
-	
+        </div>
 </body>
+
 </template>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script></script>
+
+
+
+
+
+
+
+
+
+
+
 
 <style></style>
