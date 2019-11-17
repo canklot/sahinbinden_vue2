@@ -28,9 +28,9 @@ new Vue({
 })
 
 new Vue({
-  el: '#Anasayfa',
+  el: '#Laptop',
   router,
-  render: h => h(Anasayfa)
+  render: h => h(Laptop)
 })
 
 
