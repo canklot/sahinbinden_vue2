@@ -11,10 +11,10 @@
 
     <div class="center clearfix">
       <solmenu class="left clearfix">
-        <ul class="no_bullet" ;>
-          <li class="acil" ;><a href="">Acil Acil</a></li>
-          <li class="fiyatidusen" ;><a href="">Fiyatı Düşenler</a></li>
-          <li class="son48" ;>
+        <ul class="no_bullet" >
+          <li class="acil" ><a href="">Acil Acil</a></li>
+          <li class="fiyatidusen" ><a href="">Fiyatı Düşenler</a></li>
+          <li class="son48" >
             <a href="">Son 48 Saat </a>/<a href=""> 1 Hafta </a>/
             <a href="">1 Ay</a>
           </li>
@@ -1247,10 +1247,6 @@
 
 
 <script></script>
-
-
-
-
 
 
 
