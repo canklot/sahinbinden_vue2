@@ -1273,28 +1273,28 @@
 kutu{padding:10px;float:left;text-align:justify;width:100;}
 kutu img{display:block;margin:0 auto;}
 ul.no_bullet{list-style-type:none;padding:0;margin:0;}
-li.acil:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-696px -24px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.fiyatidusen:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-552px -168px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.son48:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-168px -552px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.hasarsorgulama:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-504px -216px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.otoexpertis:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-408px -312px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.aracdegerlendirme:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-48px -672px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.aracsigorta:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-360px -360px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.emlakendeksi:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-624px -96px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.dask:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-288px -432px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.emlak:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-600px -120px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.vasıta:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-96px -624px;;     width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.yedek:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:0 -720px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.ikinciel:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-720px 0;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.işmakineleri:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-264px -456px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.ustalar:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-120px -600px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.özelders:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-240px -480px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.işilanları:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-336px -384px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.yardımcıara:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-24px -696px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.hayvanlaralemi:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-480px -240px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.hikayenipaylaş:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-432px -288px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.efsaneilanlar:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-672px -48px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
-li.ilginçilanlar:before{background-image:url(file:///C:/Users/Canavar/Documents/GitHub/sahinbinden_vue2/pics/simgeler.png);background-position:-312px -408px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.acil:before{background-image:url(../../pics/simgeler.png);background-position:-696px -24px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.fiyatidusen:before{background-image:url(../../pics/simgeler.png);background-position:-552px -168px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.son48:before{background-image:url(../../pics/simgeler.png);background-position:-168px -552px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.hasarsorgulama:before{background-image:url(../../pics/simgeler.png);background-position:-504px -216px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.otoexpertis:before{background-image:url(../../pics/simgeler.png);background-position:-408px -312px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.aracdegerlendirme:before{background-image:url(../../pics/simgeler.png);background-position:-48px -672px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.aracsigorta:before{background-image:url(../../pics/simgeler.png);background-position:-360px -360px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.emlakendeksi:before{background-image:url(../../pics/simgeler.png);background-position:-624px -96px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.dask:before{background-image:url(../../pics/simgeler.png);background-position:-288px -432px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.emlak:before{background-image:url(../../pics/simgeler.png);background-position:-600px -120px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.vasıta:before{background-image:url(../../pics/simgeler.png);background-position:-96px -624px;;     width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.yedek:before{background-image:url(../../pics/simgeler.png);background-position:0 -720px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.ikinciel:before{background-image:url(../../pics/simgeler.png);background-position:-720px 0;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.işmakineleri:before{background-image:url(../../pics/simgeler.png);background-position:-264px -456px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.ustalar:before{background-image:url(../../pics/simgeler.png);background-position:-120px -600px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.özelders:before{background-image:url(../../pics/simgeler.png);background-position:-240px -480px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.işilanları:before{background-image:url(../../pics/simgeler.png);background-position:-336px -384px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.yardımcıara:before{background-image:url(../../pics/simgeler.png);background-position:-24px -696px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.hayvanlaralemi:before{background-image:url(../../pics/simgeler.png);background-position:-480px -240px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.hikayenipaylaş:before{background-image:url(../../pics/simgeler.png);background-position:-432px -288px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.efsaneilanlar:before{background-image:url(../../pics/simgeler.png);background-position:-672px -48px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
+li.ilginçilanlar:before{background-image:url(../../pics/simgeler.png);background-position:-312px -408px;width:24px;height:24px;content:'';display:inline-block;vertical-align:middle;margin:5px;}
 
 
 
