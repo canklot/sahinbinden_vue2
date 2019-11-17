@@ -10,13 +10,13 @@
                 <a href="/#/Hakkımızda">Hakkımızda</a>
               </li>
               <li>
-                <a> Medya İletişimi ve Görseller</a>
+                <a href="/#/Medya"> Medya İletişimi ve Görseller</a>
               </li>
               <li>
-                <a>İnsan Kaynakları</a>
+                <a href="/#/insankaynaklari">İnsan Kaynakları</a>
               </li>
               <li>
-                <a>İletişim</a>
+                <a href="/#/iletişim">İletişim</a>
               </li>
             </ul>
           </li>
