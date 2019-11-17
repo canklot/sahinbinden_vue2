@@ -2,7 +2,7 @@
   <body>
     <kutular class="right clearfix">
       <img
-        src="body resimler/18.PNG"
+        src="../../pics/bodyresimler/18.PNG"
         alt="Smiley face"
         height="255"
         width="1200"
@@ -249,7 +249,7 @@
             <div id="app-2">
               <span v-bind:title="message">
                 <img
-                  src="body resimler/1.1.jpg"
+                  src="../../pics/bodyresimler/1.1.jpg"
                   alt="Smiley face"
                   height="75"
                   width="100"
@@ -265,7 +265,7 @@
             <div id="app-3">
               <span v-bind:title="message">
                 <img
-                  src="body resimler/1.2.jpg"
+                  src="../../pics/bodyresimler/1.2.jpg"
                   alt="Smiley face"
                   height="75"
                   width="100"
@@ -279,7 +279,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/1.3.jpg"
+              src="../../pics/bodyresimler/1.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -291,7 +291,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/1.4.jpg"
+              src="../../pics/bodyresimler/1.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -303,7 +303,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/1.5.jpg"
+              src="../../pics/bodyresimler/1.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -315,7 +315,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/1.6.jpg"
+              src="../../pics/bodyresimler/1.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -327,7 +327,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/1.7.jpg"
+              src="../../pics/bodyresimler/1.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -339,7 +339,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.1.jpg"
+              src="../../pics/bodyresimler/2.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -351,7 +351,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.2.jpg"
+              src="../../pics/bodyresimler/2.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -363,7 +363,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.3.jpg"
+              src="../../pics/bodyresimler/2.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -375,7 +375,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.4.jpg"
+              src="../../pics/bodyresimler/2.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -386,7 +386,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.5.jpg"
+              src="../../pics/bodyresimler/2.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -397,7 +397,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.6.jpg"
+              src="../../pics/bodyresimler/2.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -408,7 +408,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/2.7.png"
+              src="../../pics/bodyresimler/2.7.png"
               alt="Smiley face"
               height="75"
               width="100"
@@ -419,7 +419,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.1.jpg"
+              src="../../pics/bodyresimler/3.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -431,7 +431,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.2.jpg"
+              src="../../pics/bodyresimler/3.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -443,7 +443,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.3.jpg"
+              src="../../pics/bodyresimler/3.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -455,7 +455,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.4.jpg"
+              src="../../pics/bodyresimler/3.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -466,7 +466,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.5.jpg"
+              src="../../pics/bodyresimler/3.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -477,7 +477,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.6.jpg"
+              src="../../pics/bodyresimler/3.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -488,7 +488,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/3.7.jpg"
+              src="../../pics/bodyresimler/3.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -499,7 +499,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.1.jpg"
+              src="../../pics/bodyresimler/4.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -511,7 +511,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.2.jpg"
+              src="../../pics/bodyresimler/4.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -523,7 +523,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.3.jpg"
+              src="../../pics/bodyresimler/4.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -535,7 +535,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.4.jpg"
+              src="../../pics/bodyresimler/4.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -546,7 +546,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.5.jpg"
+              src="../../pics/bodyresimler/4.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -557,7 +557,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.6.jpg"
+              src="../../pics/bodyresimler/4.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -568,7 +568,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/4.7.jpg"
+              src="../../pics/bodyresimler/4.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -579,7 +579,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.1.jpg"
+              src="../../pics/bodyresimler/5.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -591,7 +591,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.2.jpg"
+              src="../../pics/bodyresimler/5.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -603,7 +603,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.3.jpg"
+              src="../../pics/bodyresimler/5.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -615,7 +615,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.4.jpg"
+              src="../../pics/bodyresimler/5.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -626,7 +626,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.5.jpg"
+              src="../../pics/bodyresimler/5.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -637,7 +637,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.6.jpg"
+              src="../../pics/bodyresimler/5.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -648,7 +648,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/5.7.jpg"
+              src="../../pics/bodyresimler/5.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -659,7 +659,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.1.jpg"
+              src="../../pics/bodyresimler/6.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -671,7 +671,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.2.jpg"
+              src="../../pics/bodyresimler/6.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -683,7 +683,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.3.jpg"
+              src="../../pics/bodyresimler/6.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -695,7 +695,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.4.jpg"
+              src="../../pics/bodyresimler/6.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -706,7 +706,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.5.jpg"
+              src="../../pics/bodyresimler/6.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -717,7 +717,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.6.jpg"
+              src="../../pics/bodyresimler/6.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -728,7 +728,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/6.7.jpg"
+              src="../../pics/bodyresimler/6.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -739,7 +739,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.1.jpg"
+              src="../../pics/bodyresimler/7.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -751,7 +751,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.2.jpg"
+              src="../../pics/bodyresimler/7.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -763,7 +763,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.3.jpg"
+              src="../../pics/bodyresimler/7.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -775,7 +775,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.4.jpg"
+              src="../../pics/bodyresimler/7.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -786,7 +786,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.5.jpg"
+              src="../../pics/bodyresimler/7.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -797,7 +797,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.6.jpg"
+              src="../../pics/bodyresimler/7.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -808,7 +808,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/7.7.jpg"
+              src="../../pics/bodyresimler/7.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -819,7 +819,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.1.jpg"
+              src="../../pics/bodyresimler/8.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -831,7 +831,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.2.jpg"
+              src="../../pics/bodyresimler/8.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -843,7 +843,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.3.jpg"
+              src="../../pics/bodyresimler/8.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -855,7 +855,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.4.jpg"
+              src="../../pics/bodyresimler/8.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -866,7 +866,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.5.jpg"
+              src="../../pics/bodyresimler/8.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -877,7 +877,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.6.jpg"
+              src="../../pics/bodyresimler/8.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -888,7 +888,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/8.7.jpg"
+              src="../../pics/bodyresimler/8.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -901,7 +901,7 @@
           <!--div class="left2">-->
 
           <img
-            src="body resimler/14.PNG"
+            src="../../pics/bodyresimler/14.PNG"
             alt="Smiley face"
             height="110"
             width="900"
@@ -916,14 +916,14 @@
           <br />
           <div>
             <img
-              src="body resimler/0.1.jpg"
+              src="../../pics/bodyresimler/0.1.jpg"
               alt="Smiley face"
               height="175"
               width="375"
             />
             <div style="float:right;">
               <img
-                src="body resimler/0.2.png"
+                src="../../pics/bodyresimler/0.2.png"
                 alt="Smiley face"
                 height="175"
                 width="375"
@@ -955,7 +955,7 @@
           <br />
           <br />
           <img
-            src="body resimler/11.PNG"
+            src="../../pics/bodyresimler/11.PNG"
             alt="Smiley face"
             height="250"
             width="875"
@@ -974,7 +974,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.1.jpg"
+              src="../../pics/bodyresimler/11.1.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -985,7 +985,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.2.jpg"
+              src="../../pics/bodyresimler/11.2.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -996,7 +996,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.3.jpg"
+              src="../../pics/bodyresimler/11.3.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -1007,7 +1007,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.4.jpg"
+              src="../../pics/bodyresimler/11.4.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -1018,7 +1018,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.5.jpg"
+              src="../../pics/bodyresimler/11.5.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -1029,7 +1029,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.6.jpg"
+              src="../../pics/bodyresimler/11.6.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -1040,7 +1040,7 @@
         <kutu>
           <a href="https://www.w3schools.com">
             <img
-              src="body resimler/11.7.jpg"
+              src="../../pics/bodyresimler/11.7.jpg"
               alt="Smiley face"
               height="75"
               width="100"
@@ -1050,7 +1050,7 @@
         </kutu>
 
         <img
-          src="body resimler/12.PNG"
+          src="../../pics/bodyresimler/12.PNG"
           alt="Smiley face"
           height="150"
           width="875"
@@ -1073,7 +1073,7 @@
         </div>
 
         <img
-          src="body resimler/13.PNG"
+          src="../../pics/bodyresimler/13.PNG"
           alt="Smiley face"
           height="255"
           width="880"
